@@ -1,0 +1,855 @@
+/* The site navbar is built for a dark hero. This page has a white
+   background, so it gets the same dark-theme navbar as the
+   Never Miss a Dose and Track Every Dose pages. */
+.dd-page .navbar .brand-name {
+  color: #123C4D;
+}
+
+.dd-page .navbar .custom-logo-icon span {
+  background-color: #123C4D;
+}
+
+.dd-page .navbar .nav-item {
+  color: #40545E;
+}
+
+.dd-page .navbar .nav-item:hover {
+  color: #123C4D;
+}
+
+.dd-page .navbar .btn-get-started {
+  background-color: #123C4D;
+  color: #ffffff;
+}
+
+.dd-page .navbar::after {
+  background-color: #E5E7EB;
+  left: 0;
+  right: 0;
+}
+
+/* dropdown links match the rest of the site (not the page accent) */
+.dd-page .navbar .dropdown-menu a,
+.dd-page .floating-navbar .dropdown-menu a {
+  color: #40545E;
+}
+
+.dd-page .navbar .dropdown-menu a:hover,
+.dd-page .floating-navbar .dropdown-menu a:hover {
+  background-color: #F2F7F9;
+  color: #123C4D;
+}
+
+/* =========================================================
+   THE DAILY DOSE - extracted from the approved design file
+   Scoped under .dd-page so it cannot leak into other pages
+   Colour theme: the site's navy / blue palette (same tokens
+   as the rest of the site - #123C4D, #006F56, #F8FBFD)
+   ========================================================= */
+.dd-page {
+  color-scheme: light;
+
+        /* primary - the site's action blue */
+        --green: #006F56;
+        --green-strong: #00694A;
+        --green-soft: #EAF3F3;
+        --green-mid: #CFDADD;
+        /* surfaces - the page is white all the way through */
+        --bg: #ffffff;
+        --surface: #ffffff;
+        --surface-2: #ffffff;
+        /* ink */
+        --ink: #1C2B33;
+        --ink-2: #40545E;
+        --ink-3: #7B8B92;
+        --line: #E5E7EB;
+        /* states */
+        --amber: #F2A000;
+        --amber-bg: #FEF3DC;
+        --red: #E74C3C;
+        --red-bg: #FFECEE;
+        --shadow: 0 10px 30px rgba(12, 26, 61, .08);
+        --radius: 14px;
+        --brand-dark: #123C4D;
+      
+}
+/* The site itself is light only - the blog follows the same rule,
+   so the page always reads as white with the tokens above. */
+.dd-page * {
+ box-sizing: border-box; 
+}
+.dd-page {
+ scroll-behavior: smooth; 
+}
+.dd-page {
+
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+        line-height: 1.55;
+        -webkit-font-smoothing: antialiased;
+      
+}
+.dd-page button,
+.dd-page [role="button"],
+.dd-page select,
+.dd-page summary,
+.dd-page input:not([type="checkbox"], [type="radio"]) {
+ min-height: 2.25rem; 
+}
+.dd-page button {
+ font: inherit; cursor: pointer; 
+}
+.dd-page img {
+ display: block; max-width: 100%; 
+}
+.dd-page a {
+ color: var(--green); 
+}
+.dd-page .wrap {
+ max-width: 1120px; margin: 0 auto; padding: 0 20px; 
+}
+.dd-page h1,
+.dd-page h2,
+.dd-page h3,
+.dd-page .serif {
+ font-family: 'Poppins', sans-serif; 
+}
+.dd-page h2 {
+ font-size: clamp(1.7rem, 3.4vw, 2.3rem); line-height: 1.15; margin: 0 0 8px; font-weight: 600; letter-spacing: -.01em; 
+}
+.dd-page h3 {
+ font-size: 1.25rem; line-height: 1.25; margin: 0; font-weight: 600; 
+}
+.dd-page .lede {
+ color: var(--ink-2); margin: 0; max-width: 62ch; 
+}
+.dd-page section {
+ padding: 52px 0 8px; 
+}
+.dd-page .sec-head {
+ margin-bottom: 22px; 
+}
+.dd-page .sec-head .tag {
+
+        display: inline-block; font-size: .78rem; font-weight: 700; letter-spacing: .08em;
+        text-transform: uppercase; color: var(--green); margin-bottom: 10px;
+      
+}
+.dd-page .hero {
+  padding-top: 44px; padding-bottom: 10px;
+}
+.dd-page .hero-grid {
+ display: grid; grid-template-columns: 1.15fr .85fr; gap: 36px; align-items: center; 
+}
+.dd-page .hero .kicker {
+
+        display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: .85rem;
+        color: var(--green); background: var(--green-soft); border: 1px solid var(--green-mid);
+        padding: 6px 12px; border-radius: 999px; margin-bottom: 18px;
+      
+}
+.dd-page .hero h1 {
+ font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1.02; margin: 0 0 16px; font-weight: 600; letter-spacing: -.015em; 
+}
+.dd-page .hero h1 em {
+  font-style: italic; color: var(--ink);
+ }
+.dd-page .hero p.sub {
+ font-size: 1.13rem; color: var(--ink-2); margin: 0 0 24px; max-width: 52ch; 
+}
+.dd-page .searchbar {
+ display: flex; gap: 8px; max-width: 540px; 
+}
+.dd-page .searchbar input {
+
+        flex: 1; min-width: 0; padding: 12px 16px; font: inherit; border-radius: 10px;
+        border: 1.5px solid var(--line); background: var(--surface); color: var(--ink);
+      
+}
+.dd-page .searchbar input:focus {
+ outline: 2px solid var(--green); outline-offset: 1px; border-color: var(--green); 
+}
+.dd-page .searchbar button {
+
+        background: var(--green); color: #fff; border: none; border-radius: 10px;
+        padding: 12px 20px; font-weight: 700;
+      
+}
+.dd-page .hero-meta {
+ display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 18px; color: var(--ink-3); font-size: .9rem; 
+}
+.dd-page .hero-meta b {
+ color: var(--ink); 
+}
+.dd-page .hero-photo {
+ border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); 
+}
+.dd-page .hero-photo img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 16 / 10;
+  max-height: 320px;
+}
+.dd-page .hero-photo figcaption {
+ background: var(--surface); padding: 12px 16px; font-size: .88rem; color: var(--ink-2); border-top: 1px solid var(--line); 
+}
+.dd-page .hero-photo figcaption b {
+ color: var(--ink); 
+}
+.dd-page .tools {
+ display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; 
+}
+.dd-page .tool {
+
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 22px; display: flex; flex-direction: column; gap: 12px; box-shadow: var(--shadow);
+      
+}
+.dd-page .tool .tool-icon {
+
+        width: 44px; height: 44px; border-radius: 10px; background: var(--green-soft);
+        display: grid; place-items: center; color: var(--green);
+      
+}
+.dd-page .tool h3 {
+ font-size: 1.3rem; 
+}
+.dd-page .tool p {
+ margin: 0; color: var(--ink-2); font-size: .93rem; 
+}
+.dd-page .tool label {
+ font-size: .82rem; font-weight: 700; color: var(--ink-2); display: block; margin-bottom: 5px; 
+}
+.dd-page .tool select,
+.dd-page .tool input[type="time"],
+.dd-page .tool input[type="number"] {
+
+        width: 100%; padding: 10px 12px; font: inherit; border-radius: 9px;
+        border: 1.5px solid var(--line); background: var(--bg); color: var(--ink);
+      
+}
+.dd-page .tool .go {
+
+        margin-top: auto; background: var(--green); color: #fff; border: none; border-radius: 9px;
+        padding: 11px 14px; font-weight: 700; width: 100%;
+      
+}
+.dd-page .tool .result {
+
+        display: none; border-radius: 10px; padding: 14px 16px; font-size: .93rem;
+        background: var(--green-soft); border: 1px solid var(--green-mid);
+      
+}
+.dd-page .tool .result.show {
+ display: block; 
+}
+.dd-page .tool .result.warn {
+ background: var(--amber-bg); border-color: var(--amber); 
+}
+.dd-page .tool .result.stop {
+ background: var(--red-bg); border-color: var(--red); 
+}
+.dd-page .tool .result b.verdict {
+ display: block; font-size: 1.02rem; margin-bottom: 4px; 
+}
+.dd-page .tool .result .fineprint {
+ display: block; margin-top: 8px; font-size: .8rem; color: var(--ink-2); 
+}
+.dd-page .tool .result a {
+ font-weight: 700; 
+}
+.dd-page .sched {
+ display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; 
+}
+.dd-page .sched span {
+ background: var(--surface); border: 1px solid var(--green-mid); border-radius: 999px; padding: 4px 11px; font-weight: 700; font-size: .88rem; 
+}
+.dd-page .chips {
+ display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; 
+}
+.dd-page .chip {
+
+        border: 1.5px solid var(--line); background: var(--surface); color: var(--ink);
+        border-radius: 999px; padding: 8px 16px; font-weight: 600; font-size: .92rem;
+      
+}
+.dd-page .chip[aria-pressed="true"] {
+ background: var(--green); border-color: var(--green); color: #fff; 
+}
+.dd-page .guides {
+ display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; 
+}
+.dd-page .card {
+
+      background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
+      overflow: hidden; text-align: left; padding: 0; display: flex; flex-direction: column; box-shadow: var(--shadow);
+        transition: transform .15s ease, box-shadow .15s ease; color: var(--ink); width: 100%;
+      
+}
+.dd-page .card:hover {
+ transform: translateY(-3px); box-shadow: var(--shadow); 
+}
+.dd-page .card img {
+ width: 100%; aspect-ratio: 16 / 9.5; object-fit: cover; 
+}
+.dd-page .card .body {
+ padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 8px; flex: 1; 
+}
+.dd-page .card .cat {
+ font-size: .76rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--green); 
+}
+.dd-page .card h3 {
+ font-size: 1.32rem; 
+}
+.dd-page .card p {
+ margin: 0; color: var(--ink-2); font-size: .94rem; flex: 1; 
+}
+.dd-page .card .meta {
+ display: flex; justify-content: space-between; align-items: center; font-size: .85rem; color: var(--ink-3); margin-top: 6px; 
+}
+.dd-page .card .meta .read {
+ color: var(--green); font-weight: 700; 
+}
+.dd-page .no-results {
+ display: none; padding: 34px; text-align: center; color: var(--ink-2); border: 1.5px dashed var(--line); border-radius: var(--radius); 
+}
+.dd-page .no-results.show {
+ display: block; 
+}
+.dd-page .journey {
+ display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; 
+}
+.dd-page .stage {
+
+      background: var(--surface-2); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 20px; text-align: left; color: var(--ink); width: 100%; box-shadow: var(--shadow);
+      
+}
+.dd-page .stage .num {
+ font-family: 'Poppins', sans-serif; font-size: 1.9rem; color: var(--green); font-weight: 600; line-height: 1; 
+}
+.dd-page .stage h3 {
+ font-size: 1.15rem; margin: 10px 0 6px; font-family: 'Poppins', sans-serif; font-weight: 700; 
+}
+.dd-page .stage p {
+ margin: 0; font-size: .9rem; color: var(--ink-2); 
+}
+.dd-page .stage:hover {
+ border-color: var(--green); 
+}
+.dd-page .caregiver {
+ display: grid; grid-template-columns: .9fr 1.1fr; gap: 0; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); 
+}
+.dd-page .caregiver img {
+ width: 100%; height: 100%; object-fit: cover; min-height: 280px; 
+}
+.dd-page .caregiver .inner {
+ padding: 30px 32px; 
+}
+.dd-page .caregiver ul {
+ list-style: none; margin: 18px 0 0; padding: 0; display: grid; gap: 4px; 
+}
+.dd-page .caregiver li button {
+
+        width: 100%; text-align: left; background: none; border: none; border-top: 1px solid var(--line);
+        padding: 13px 2px; color: var(--ink); display: flex; justify-content: space-between; gap: 12px; align-items: baseline;
+      
+}
+.dd-page .caregiver li button b {
+ font-weight: 600; 
+}
+.dd-page .caregiver li button span {
+ color: var(--green); font-weight: 700; font-size: .88rem; white-space: nowrap; 
+}
+.dd-page .caregiver li button:hover b {
+ color: var(--green); 
+}
+.dd-page .latest {
+ display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; 
+}
+.dd-page .latest button {
+
+        display: flex; gap: 16px; align-items: baseline; width: 100%; text-align: left;
+        background: none; border: none; border-bottom: 1px solid var(--line);
+        padding: 16px 2px; color: var(--ink);
+      
+}
+.dd-page .latest .n {
+ font-family: 'Poppins', sans-serif; font-size: 1.5rem; color: var(--green); font-weight: 600; min-width: 30px; 
+}
+.dd-page .latest .t b {
+ display: block; font-size: 1.02rem; 
+}
+.dd-page .latest .t span {
+ color: var(--ink-3); font-size: .86rem; 
+}
+.dd-page .latest button:hover .t b {
+ color: var(--green); 
+}
+.dd-page .appband {
+
+        margin-top: 56px; background: var(--brand-dark); color: #ffffff; border-radius: 18px;
+        padding: 38px 36px; display: grid; grid-template-columns: 1.2fr .8fr; gap: 30px; align-items: center;
+      
+}
+.dd-page .appband h2 {
+ color: #fff; margin-bottom: 10px; 
+}
+.dd-page .appband p {
+ margin: 0; opacity: .92; max-width: 46ch; 
+}
+.dd-page .appband .feats {
+ display: grid; gap: 10px; font-weight: 600; 
+}
+.dd-page .appband .feats div {
+ background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.22); border-radius: 10px; padding: 12px 16px; 
+}
+.dd-page .appband .feats small {
+ display: block; font-weight: 400; opacity: .85; margin-top: 2px; 
+}
+.dd-page .dd-footnote {
+ margin-top: 56px; border-top: 1px solid var(--line); padding: 28px 0 44px; color: var(--ink-3); font-size: .88rem; 
+}
+.dd-page .dd-footnote .disc {
+ max-width: 78ch; 
+}
+.dd-page .dd-footnote b {
+ color: var(--ink-2); 
+}
+.dd-page .reader-backdrop {
+
+        position: fixed; inset: 0; background: rgba(10, 26, 61, .62); display: none; z-index: 40;
+      
+}
+.dd-page .reader-backdrop.open {
+ display: block; 
+}
+.dd-page .reader {
+
+        position: fixed; inset: 0; z-index: 50; display: none; overflow-y: auto; background: var(--bg);
+      
+}
+.dd-page .reader.open {
+ display: block; 
+}
+.dd-page .reader .bar {
+
+        position: sticky; top: 0; background: var(--bg); border-bottom: 1px solid var(--line);
+        padding: 12px 0; display: flex; justify-content: space-between; align-items: center; z-index: 2;
+      
+}
+.dd-page .reader .bar button {
+
+        background: var(--surface); border: 1.5px solid var(--line); color: var(--ink);
+        border-radius: 999px; padding: 9px 18px; font-weight: 700;
+      
+}
+.dd-page .reader .bar .brand {
+ font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 1.1rem; color: var(--green); 
+}
+.dd-page .article {
+ max-width: 720px; margin: 0 auto; padding: 34px 20px 70px; 
+}
+.dd-page .article .cat {
+ font-size: .78rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--green); 
+}
+.dd-page .article h1 {
+ font-size: clamp(1.9rem, 4.6vw, 2.7rem); line-height: 1.12; margin: 10px 0 12px; 
+}
+.dd-page .article .byline {
+ color: var(--ink-3); font-size: .9rem; margin-bottom: 22px; 
+}
+.dd-page .article img.hero-img {
+ width: 100%; border-radius: 14px; aspect-ratio: 16 / 9; object-fit: cover; margin-bottom: 24px; 
+}
+.dd-page .takeaway {
+ background: var(--green-soft); border: 1px solid var(--green-mid); border-radius: 12px; padding: 18px 20px; margin-bottom: 26px; 
+}
+.dd-page .takeaway b {
+ display: block; margin-bottom: 4px; color: var(--green); text-transform: uppercase; font-size: .76rem; letter-spacing: .08em; 
+}
+.dd-page .article .content h2 {
+ font-size: 1.5rem; margin: 30px 0 8px; 
+}
+.dd-page .article .content p {
+ margin: 0 0 14px; color: var(--ink); 
+}
+.dd-page .article .content ul {
+ margin: 0 0 14px; padding-left: 22px; 
+}
+.dd-page .article .content li {
+ margin-bottom: 6px; 
+}
+.dd-page .article .content table {
+ width: 100%; border-collapse: collapse; margin: 6px 0 18px; font-size: .95rem; 
+}
+.dd-page .article .content th,
+.dd-page .article .content td {
+ border: 1px solid var(--line); padding: 9px 12px; text-align: left; 
+}
+.dd-page .article .content th {
+ background: var(--surface-2); 
+}
+.dd-page .do-box {
+ border: 1.5px solid var(--green); border-radius: 12px; padding: 20px 22px; margin: 30px 0; background: var(--surface); 
+}
+.dd-page .do-box b.head {
+ display: block; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--green); margin-bottom: 6px; 
+}
+.dd-page .do-box p {
+ margin: 0 0 6px; 
+}
+.dd-page .article .disc {
+ font-size: .85rem; color: var(--ink-3); border-top: 1px solid var(--line); padding-top: 16px; margin-top: 30px; 
+}
+.dd-page .related {
+ margin-top: 26px; 
+}
+.dd-page .related h3 {
+ font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1rem; margin-bottom: 10px; 
+}
+.dd-page .related button {
+
+        display: block; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line);
+        border-radius: 10px; padding: 13px 16px; margin-bottom: 8px; color: var(--ink); font-weight: 600;
+      
+}
+.dd-page .related button:hover {
+ border-color: var(--green); color: var(--green); 
+}
+@media (max-width: 900px) {
+.dd-page .tools {
+ grid-template-columns: minmax(0, 1fr); 
+}
+.dd-page .guides {
+ grid-template-columns: 1fr 1fr; 
+}
+.dd-page .journey {
+ grid-template-columns: 1fr 1fr; 
+}
+.dd-page .hero-grid {
+ grid-template-columns: minmax(0, 1fr); 
+}
+.dd-page .caregiver {
+ grid-template-columns: minmax(0, 1fr); 
+}
+.dd-page .caregiver img {
+ max-height: 240px; 
+}
+.dd-page .appband {
+ grid-template-columns: minmax(0, 1fr); 
+}
+
+}
+@media (max-width: 560px) {
+.dd-page .guides {
+ grid-template-columns: minmax(0, 1fr); 
+}
+.dd-page .journey {
+ grid-template-columns: minmax(0, 1fr); 
+}
+.dd-page .latest {
+ grid-template-columns: minmax(0, 1fr); 
+}
+.dd-page .searchbar {
+ flex-direction: column; 
+}
+.dd-page section {
+ padding-top: 40px; 
+}
+
+}
+@media (prefers-reduced-motion: reduce) {
+.dd-page {
+ scroll-behavior: auto; 
+}
+.dd-page .card {
+ transition: none; 
+}
+
+}
+
+/* =========================================================
+   REPO INTEGRATION FIX (not part of the design file)
+   The shared site navbar is wider than a phone screen.
+   Compacting it inside .dd-page keeps this page from
+   scrolling sideways without touching any other page.
+   ========================================================= */
+@media (max-width: 760px) {
+  .dd-page .navbar {
+    flex-wrap: wrap;
+    row-gap: 0.7rem;
+    padding: 1rem 3rem;
+  }
+
+  .dd-page .navbar .logo {
+    flex-shrink: 0;
+  }
+
+  .dd-page .navbar .nav-right {
+    width: 100%;
+    justify-content: space-between;
+    gap: 0.8rem;
+  }
+
+  .dd-page .navbar .nav-links {
+    gap: 1rem;
+    min-width: 0;
+    flex-wrap: wrap;
+    row-gap: 0.4rem;
+  }
+
+  .dd-page .navbar .nav-item {
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+
+  .dd-page .navbar .btn-get-started {
+    flex-shrink: 0;
+    padding: 0.5rem 0.8rem;
+    font-size: 0.66rem;
+  }
+
+  .dd-page .floating-navbar {
+    width: calc(100% - 2rem);
+  }
+
+  /* the shared navbar draws a full-bleed line that overflows a phone */
+  .dd-page .navbar::after,
+  .dd-page .floating-navbar::after {
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .dd-page .navbar .btn-get-started {
+    display: none;
+  }
+}
+/* =========================================================
+   GUIDE POPUP - centred dialog on the same page
+   (kept last so it wins over the extracted overlay rules)
+   ========================================================= */
+.dd-page .reader-backdrop {
+  z-index: 1250;
+}
+
+.dd-page .reader {
+  position: fixed;
+  inset: 0;
+  z-index: 1300;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: transparent;
+  overflow: hidden;
+}
+
+.dd-page .reader.open {
+  display: flex;
+  animation: ddFadeIn 0.2s ease both;
+}
+
+.dd-page .reader-panel {
+  position: relative;
+  width: 100%;
+  max-width: 940px;
+  max-height: 92vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: 0 40px 90px rgba(10, 26, 61, 0.3);
+  padding: 2.2rem 2.6rem 2.4rem;
+  animation: ddPopIn 0.32s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.dd-page .reader-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 3;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #DDE5E8;
+  border-radius: 50%;
+  background: #f1f4fb;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.dd-page .reader-close:hover {
+  background: var(--green-soft);
+  border-color: var(--green-mid);
+  color: var(--ink);
+}
+
+.dd-page .reader-panel .article {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dd-page .reader-panel .article .cat {
+  font-size: .72rem;
+  letter-spacing: .09em;
+}
+
+.dd-page .reader-panel .article h1 {
+  font-size: clamp(1.55rem, 3.2vw, 2.05rem);
+  line-height: 1.18;
+  letter-spacing: -.015em;
+  margin: 8px 0 8px;
+  padding-right: 2.4rem;
+}
+
+.dd-page .reader-panel .article .byline {
+  font-size: .84rem;
+  margin-bottom: 18px;
+}
+
+.dd-page .reader-panel .article img.hero-img {
+  border-radius: 14px;
+  margin-bottom: 18px;
+}
+
+.dd-page .reader-panel .article .content h2 {
+  position: relative;
+  font-size: 1.22rem;
+  line-height: 1.35;
+  margin: 26px 0 10px;
+  padding-left: 14px;
+}
+
+.dd-page .reader-panel .article .content h2::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: .22em;
+  width: 4px;
+  height: 1.05em;
+  border-radius: 2px;
+  background: var(--green);
+}
+
+.dd-page .reader-panel .article .content h2:first-child {
+  margin-top: 0;
+}
+
+.dd-page .reader-panel .article .content p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--ink-2);
+  margin: 0 0 14px;
+}
+
+.dd-page .reader-panel .article .content ul {
+  margin: 0 0 16px;
+  padding-left: 20px;
+}
+
+.dd-page .reader-panel .article .content li {
+  font-size: .98rem;
+  line-height: 1.7;
+  color: var(--ink-2);
+  margin-bottom: 8px;
+}
+
+.dd-page .reader-panel .article .content li b {
+  color: var(--ink);
+}
+
+.dd-page .reader-panel .takeaway {
+  margin-bottom: 22px;
+  padding: 16px 18px;
+  border-radius: 14px;
+}
+
+.dd-page .reader-panel .takeaway b {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.dd-page .reader-panel .do-box {
+  margin: 24px 0 0;
+  padding: 16px 18px;
+  border-radius: 14px;
+}
+
+.dd-page .reader-panel .do-box .head {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.dd-page .reader-panel .do-box p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.dd-page .reader-panel .related {
+  margin-top: 24px;
+}
+
+.dd-page .reader-panel .related h3 {
+  margin: 0 0 10px;
+}
+
+.dd-page .reader-panel .related button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 8px;
+}
+
+.dd-page .reader-panel .article .disc {
+  font-size: .8rem;
+  line-height: 1.6;
+  margin-top: 24px;
+  padding-top: 14px;
+}
+
+@keyframes ddFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes ddPopIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 640px) {
+  .dd-page .reader {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  .dd-page .reader-panel {
+    max-width: 100%;
+    max-height: 92vh;
+    border-radius: 20px 20px 0 0;
+    padding: 1.5rem 1.3rem 2rem;
+  }
+}

@@ -1,0 +1,631 @@
+PRIVACY POLICY
+Medicine Reminder App
+
+Effective Date: 14 November 2026
+Last Updated: 14 November 2026
+
+This Privacy Policy describes Our policies and procedures on the
+collection, use and disclosure of Your information when You use the
+Service and tells You about Your privacy rights and how the law protects
+You.
+
+We use Your Personal Data only to provide and improve the Service.
+Please read this Privacy Policy carefully.
+
+==================================================================
+INTERPRETATION AND DEFINITIONS
+==================================================================
+
+Interpretation
+--------------
+The words of which the initial letter is capitalized have meanings
+defined under the following conditions. The following definitions shall
+have the same meaning regardless of whether they appear in singular or
+in plural.
+
+Definitions
+-----------
+For the purposes of this Privacy Policy:
+
+- Account means the account You create with Your email address or a
+  sign-in provider to use the Application and sync Your data across
+  Your devices.
+
+- Application means the software program provided by the Company
+  downloaded by You on any electronic device, named the Medicine
+  Reminder App (iOS and Android).
+
+- Business, for the purpose of the CCPA (California Consumer Privacy
+  Act), refers to the Company as the legal entity that collects
+  Consumers' personal information and determines the purposes and means
+  of the processing of Consumers' personal information, or on behalf of
+  which such information is collected and that alone, or jointly with
+  others, determines the purposes and means of the processing of
+  consumers' personal information, that does business in the State of
+  California.
+
+- Company (referred to as either "the Company", "We", "Us" or "Our" in
+  this Agreement) refers to Getwebix, [company address - to be added].
+  For the purpose of the GDPR, the Company is the Data Controller.
+
+- Consumer, for the purpose of the CCPA (California Consumer Privacy
+  Act), means a natural person who is a California resident. A resident,
+  as defined in the law, includes (1) every individual who is in the USA
+  for other than a temporary or transitory purpose, and (2) every
+  individual who is domiciled in the USA who is outside the USA for a
+  temporary or transitory purpose.
+
+- Country refers to: [country - to be confirmed]
+
+- Data Controller, for the purposes of the GDPR (General Data
+  Protection Regulation), refers to the Company as the legal person
+  which alone or jointly with others determines the purposes and means
+  of the processing of Personal Data.
+
+- Device means any device that can access the Service such as a
+  computer, a cellphone or a digital tablet.
+
+- Do Not Track (DNT) is a concept that has been promoted by US
+  regulatory authorities, in particular the U.S. Federal Trade
+  Commission (FTC), for the Internet industry to develop and implement
+  a mechanism for allowing internet users to control the tracking of
+  their online activities across websites.
+
+- Health Information means information about Your health or the health
+  of a linked family member that You enter in the Application, such as
+  medications and schedules, dose logs, vitals, side effects and
+  pharmacy details.
+
+- Personal Data is any information that relates to an identified or
+  identifiable individual. For the purposes of GDPR, Personal Data means
+  any information relating to You such as a name, an identification
+  number, location data, online identifier or to one or more factors
+  specific to the physical, physiological, genetic, mental, economic,
+  cultural or social identity. For the purposes of the CCPA, Personal
+  Data means any information that identifies, relates to, describes or
+  is capable of being associated with, or could reasonably be linked,
+  directly or indirectly, with You.
+
+- Sale, for the purpose of the CCPA (California Consumer Privacy Act),
+  means selling, renting, releasing, disclosing, disseminating, making
+  available, transferring, or otherwise communicating orally, in
+  writing, or by electronic or other means, a Consumer's personal
+  information to another business or a third party for monetary or other
+  valuable consideration.
+
+- Service refers to the Application and the Website.
+
+- Service Provider means any natural or legal person who processes the
+  data on behalf of the Company. It refers to third-party companies or
+  individuals employed by the Company to facilitate the Service, to
+  provide the Service on behalf of the Company, to perform services
+  related to the Service or to assist the Company in analyzing how the
+  Service is used. For the purpose of the GDPR, Service Providers are
+  considered Data Processors.
+
+- Usage Data refers to data collected automatically, either generated
+  by the use of the Service or from the Service infrastructure itself
+  (for example, the duration of a page visit).
+
+- Website refers to the Medicine Reminder App website, accessible from
+  [website URL - to be added].
+
+- You means the individual accessing or using the Service, or the
+  company, or other legal entity on behalf of which such individual is
+  accessing or using the Service, as applicable. Under GDPR (General
+  Data Protection Regulation), You can be referred to as the Data
+  Subject or as the User as you are the individual using the Service.
+
+==================================================================
+COLLECTING AND USING YOUR PERSONAL DATA
+==================================================================
+
+Types of Data Collected
+-----------------------
+
+Personal Data
+~~~~~~~~~~~~~
+While using Our Service, We may ask You to provide Us with certain
+personally identifiable information that can be used to contact or
+identify You. Personally identifiable information may include, but is
+not limited to:
+
+- Email address, name and account identifier, used to create an Account
+  and sign You in (via email/password or a social sign-in provider)
+- Usage Data
+- Health Information, as described below
+
+Usage Data
+~~~~~~~~~~
+Usage Data is collected automatically when using the Service.
+
+Usage Data may include information such as the type of mobile device You
+use, Your mobile device unique ID, the IP address of Your mobile
+device, Your mobile operating system, the type of mobile Internet
+browser You use, the app version, unique device identifiers, push
+notification token and other diagnostic data.
+
+Usage Data does not include Your Health Information.
+
+Health Information and Backup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Application lets You record information about Your health,
+including:
+
+- Medications You add, such as names, strengths, doses, schedules
+  (daily, specific weekdays, cyclical, as-needed, tapering) and linked
+  pharmacy details
+- Medication logs, such as when You take, skip or snooze a dose
+- Vitals and health tracker entries, such as blood pressure, blood
+  glucose, weight and heart rate, entered manually or synced from Apple
+  Health / Google Fit with Your permission
+- Side effects and symptoms, with severity and timestamps
+- Inventory counts and refill dates
+
+Stored with Our cloud provider. Your Health Information is stored by
+Our cloud provider, Google Firebase, encrypted in transit and at rest.
+We use it only to operate the Service for You: to fire reminders, sync
+Your data across Your devices, run interaction and allergy checks, and
+deliver caregiver alerts You have allowed.
+
+What We never do with Health Information. We never sell it. We never
+use it for advertising. We never share it with advertising or analytics
+partners, data brokers, or any third party except the Service Providers
+listed in this policy that store it and run the Service for You.
+
+Information from Apple Health and Google Fit
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+With Your permission, the Application can sync weight, heart rate and
+other vitals from Apple Health or Google Fit. You can disconnect this
+access at any time in Your Device settings or in the Application.
+
+What We do not collect
+~~~~~~~~~~~~~~~~~~~~~~
+We do not track Your location. We do not read Your contacts, messages or
+photos. We do not collect advertising identifiers (GAID/IDFA). We do not
+collect any data for advertising profiles.
+
+Use of Your Personal Data
+-------------------------
+The Company may use Personal Data for the following purposes:
+
+- To provide and maintain Our Service, including sending dose
+  reminders, escalating unconfirmed reminders, and keeping the app
+  working correctly
+- To back up, synchronize and restore Your data across Your devices
+- To show Your adherence calendar, streaks and history
+- To warn You when stock runs low or a refill is due
+- To check new medications against Your existing ones for interactions
+  and against Your allergy list
+- To generate the PDF/CSV reports You choose to export or share with
+  Your doctor
+- To send missed-dose alerts to a caregiver You have linked and given
+  permission, including via SMS
+- To keep Your account secure, including optional biometric app lock
+- For the performance of a contract: the development, compliance and
+  undertaking of the purchase contract for the products, items or
+  services You have purchased or of any other contract with Us through
+  the Service
+- To contact You: by email, SMS, or push notifications regarding
+  updates or informative communications related to the functionalities,
+  products or contracted services, including security updates, when
+  necessary or reasonable for their implementation
+- To manage Your requests: to attend and manage Your requests to Us
+
+We may share Your personal information in the following situations:
+
+- With Service Providers: We may share Your personal information with
+  Service Providers to store and process data on Our behalf, to send
+  notifications, to process payments, and to contact You. We share
+  Health Information only with the Service Providers that store it and
+  run the Service for You, never with advertising or analytics partners.
+- For Business transfers: We may share or transfer Your personal
+  information in connection with, or during negotiations of, any merger,
+  sale of Company assets, financing, or acquisition of all or a portion
+  of Our business to another company.
+
+Caregiver and Family Sharing
+----------------------------
+Helping a family member or caregiver stay informed is a core part of
+this Service, and it is built around consent:
+
+- Linking requires consent. Sending an invite by email or SMS does not
+  link anyone. The other person must accept before any data is shared.
+- You choose the permission level. A Viewer can see adherence only. A
+  Co-manager can also edit schedules and log doses on Your behalf.
+- Sensitive data stays private by default. Vitals and side effects are
+  visible only to people You have specifically given permission to see
+  them.
+- Missed-dose alerts are opt-in. A caregiver receives an alert about a
+  missed dose only if alerts are turned on for that link.
+- You can revoke access at any time. Removing a caregiver stops their
+  access immediately.
+
+One account can hold multiple profiles - Your own and family members
+You manage - and each profile's data is shared only according to that
+profile's permissions.
+
+Retention of Your Personal Data
+-------------------------------
+The Company will retain Your Personal Data only for as long as is
+necessary for the purposes set out in this Privacy Policy. We will
+retain and use Your Personal Data to the extent necessary to comply with
+Our legal obligations, resolve disputes, and enforce Our legal agreements
+and policies.
+
+While Your account is active, Your data is kept so that Your history,
+adherence records and reports remain available to You.
+
+When You delete Your account, Your personal and Health Information is
+permanently deleted from Our live systems within 30 days. Encrypted
+backup copies may persist for up to 90 days after deletion, after which
+they are automatically purged. Backups are never used for anything
+except disaster recovery.
+
+Records We are legally required to keep - for example, subscription and
+billing records held by the App Store, Google Play or RevenueCat - are
+governed by those providers' own retention rules.
+
+Transfer of Your Personal Data
+------------------------------
+Your information, including Personal Data, is processed at the Company's
+operating offices and by Our Service Providers, including Google
+Firebase, whose servers may be located outside of Your state, province,
+country or other governmental jurisdiction where the data protection
+laws may differ from those of Your jurisdiction.
+
+Your consent to this Privacy Policy followed by Your submission of such
+information represents Your agreement to that transfer.
+
+The Company will take all steps reasonably necessary to ensure that Your
+data is treated securely and in accordance with this Privacy Policy and
+no transfer of Your Personal Data will take place to an organization or
+a country unless there are adequate controls in place including the
+security of Your data and other personal information.
+
+Disclosure of Your Personal Data
+--------------------------------
+
+Business Transactions
+~~~~~~~~~~~~~~~~~~~~~
+If the Company is involved in a merger, acquisition or asset sale, Your
+Personal Data may be transferred. We will provide notice before Your
+Personal Data is transferred and becomes subject to a different Privacy
+Policy.
+
+Law enforcement
+~~~~~~~~~~~~~~~
+Under certain circumstances, the Company may be required to disclose
+Your Personal Data if required to do so by law or in response to valid
+requests by public authorities (e.g. a court or a government agency).
+For Health Information, We disclose only what a valid legal order
+requires, and We notify You when We are allowed to.
+
+Other legal requirements
+~~~~~~~~~~~~~~~~~~~~~~~~
+The Company may disclose Your Personal Data in the good faith belief
+that such action is necessary to:
+
+- Comply with a legal obligation
+- Protect and defend the rights or property of the Company
+- Prevent or investigate possible wrongdoing in connection with the
+  Service
+- Protect the personal safety of Users of the Service or the public
+- Protect against legal liability
+
+Security of Your Personal Data
+------------------------------
+- Encryption in transit and at rest: data moving between Your phone and
+  Firebase is encrypted with TLS, and Health Information stored in
+  Firebase is encrypted at rest.
+- Per-user access rules: Firebase security rules ensure an account can
+  only ever read its own data and data explicitly shared with it.
+- Optional app lock: You can protect the app with Face ID or fingerprint
+  unlock.
+- No advertising SDKs: the Application contains no ad networks and no
+  third-party tracking SDKs.
+
+The security of Your Personal Data is important to Us, but remember that
+no method of transmission over the Internet, or method of electronic
+storage is 100% secure. While We strive to use commercially acceptable
+means to protect Your Personal Data, We cannot guarantee its absolute
+security. If We ever discover a breach affecting Your data, We will
+notify affected users and describe what happened and what We did about
+it.
+
+==================================================================
+DETAILED INFORMATION ON THE PROCESSING OF YOUR PERSONAL DATA
+==================================================================
+
+Service Providers have access to Your Personal Data only to perform
+their tasks on Our behalf and are obligated not to disclose or use it
+for any other purpose.
+
+Cloud Storage and Backend
+-------------------------
+- Google Cloud and Firebase, provided by Google LLC, provide Our
+  backend: sign-in, storage for Your account, medications, dose logs and
+  vitals, and push notifications. They process this data only on Our
+  instructions. For more information, please visit the Google Cloud
+  Privacy Notice: https://cloud.google.com/terms/cloud-privacy-notice
+
+Notifications
+-------------
+- Apple Push Notification service and Firebase Cloud Messaging send
+  dose reminders and caregiver alerts to Your device.
+- Our SMS provider sends missed-dose alerts to Your caregiver's phone
+  number. Nothing else.
+
+Payments and Subscriptions
+--------------------------
+We may provide paid products and/or services within the Service. In that
+case, we may use third-party services for payment processing.
+
+We will not store or collect Your payment card details. That information
+is provided directly to Our third-party payment processors whose use of
+Your personal information is governed by their Privacy Policy. These
+payment processors adhere to the standards set by PCI-DSS as managed by
+the PCI Security Standards Council, which is a joint effort of brands
+like Visa, Mastercard, American Express and Discover. PCI-DSS
+requirements help ensure the secure handling of payment information.
+
+- RevenueCat handles App Store and Google Play subscription management
+  and receipt validation, not health data. Their Privacy Policy can be
+  viewed at https://www.revenuecat.com/privacy
+- Apple Store In-App Payments: https://www.apple.com/legal/privacy/en-ww/
+- Google Play In-App Payments: https://www.google.com/policies/privacy/
+
+Health Data Integrations
+------------------------
+- Apple HealthKit and Google Fit sync vitals only with Your permission.
+- An AI assistant is planned for a future release. The AI provider will
+  process only what You choose to share with it, and this policy will be
+  updated before it launches.
+
+==================================================================
+GDPR PRIVACY
+==================================================================
+
+Legal Basis for Processing Personal Data under GDPR
+---------------------------------------------------
+We may process Personal Data under the following conditions:
+
+- Consent: You have given Your consent for processing Personal Data for
+  one or more specific purposes.
+- Explicit consent for Health Information: We process Health
+  Information on Our servers, such as Your synchronized medication data,
+  only as part of providing the Service You signed up for.
+- Performance of a contract: Provision of Personal Data is necessary
+  for the performance of an agreement with You and/or for any
+  pre-contractual obligations thereof.
+- Legal obligations: Processing Personal Data is necessary for
+  compliance with a legal obligation to which the Company is subject.
+- Vital interests: Processing Personal Data is necessary in order to
+  protect Your vital interests or of another natural person.
+- Legitimate interests: Processing Personal Data is necessary for the
+  purposes of the legitimate interests pursued by the Company.
+
+In any case, the Company will gladly help to clarify the specific legal
+basis that applies to the processing.
+
+Your Rights under the GDPR
+--------------------------
+The Company undertakes to respect the confidentiality of Your Personal
+Data and to guarantee You can exercise Your rights.
+
+You have the right under this Privacy Policy, and by law if You are
+within the EU, to:
+
+- Request access to Your Personal Data. You can access, update or
+  request deletion of Your Personal Data directly within the
+  Application's Settings. This also enables You to receive a copy of the
+  Personal Data We hold about You.
+- Request correction of the Personal Data that We hold about You. You
+  have the right to have any incomplete or inaccurate information We
+  hold about You corrected.
+- Object to processing of Your Personal Data. This right exists where We
+  are relying on a legitimate interest as the legal basis for Our
+  processing and there is something about Your particular situation,
+  which makes You want to object to Our processing of Your Personal Data
+  on this ground. You also have the right to object where We are
+  processing Your Personal Data for direct marketing purposes.
+- Request erasure of Your Personal Data. You have the right to ask Us to
+  delete or remove Personal Data when there is no good reason for Us to
+  continue processing it, including Your account and Health Information.
+- Request the transfer of Your Personal Data. We will provide to You, or
+  to a third-party You have chosen, Your Personal Data in a structured,
+  commonly used, machine-readable format.
+- Withdraw Your consent. You have the right to withdraw Your consent at
+  any time, as easily as You gave it. For example, You can disconnect
+  Apple Health / Google Fit, or revoke caregiver access, at any time. If
+  You withdraw Your consent, We may not be able to provide You with
+  access to certain specific functionalities of the Service.
+
+Exercising of Your GDPR Data Protection Rights
+----------------------------------------------
+You may exercise Your rights of access, rectification, erasure and
+opposition by contacting Us at [privacy email - to be added]. Please
+note that We may ask You to verify Your identity before responding to
+such requests. We will respond within one month.
+
+You have the right to complain to a Data Protection Authority about Our
+collection and use of Your Personal Data. For more information, if You
+are in the European Economic Area (EEA), please contact Your local data
+protection authority in the EEA.
+
+==================================================================
+CCPA PRIVACY
+==================================================================
+
+Your Rights under the CCPA
+--------------------------
+Under this Privacy Policy, and by law if You are a resident of
+California, You have the following rights:
+
+- The right to notice. You must be properly notified which categories of
+  Personal Data are being collected and the purposes for which the
+  Personal Data is being used.
+- The right to know about Your Personal Data. You have the right to
+  request and obtain from the Company information regarding the
+  disclosure of the following:
+    - The categories of Personal Data collected
+    - The sources from which the Personal Data was collected
+    - The business or commercial purpose for collecting the Personal
+      Data
+    - Categories of third parties with whom We share Personal Data
+    - The specific pieces of Personal Data We collected about You
+- The right to delete Personal Data. You also have the right to request
+  the deletion of Your Personal Data that has been collected.
+- The right to say no to the sale of Personal Data. We do not sell
+  Personal Data, and We never sell Health Information.
+- The right not to be discriminated against. You have the right not to
+  be discriminated against for exercising any of Your Consumer's
+  rights.
+
+Categories of Personal Data Collected
+-------------------------------------
+In the past 12 months, the Company has collected the following
+categories of Personal Data, as described in this Privacy Policy:
+
+- Identifiers, such as Your email address and account identifier if You
+  create an Account.
+- Internet or other electronic network activity information, such as
+  Usage Data and app events.
+- Sensitive personal information: health information, such as Your
+  medications, dose logs, vitals and side effects.
+
+We use and disclose sensitive personal information only to provide the
+Service You request, as permitted by the CCPA. We do not use it to infer
+characteristics about You, and We never sell or share it for
+advertising.
+
+Exercising Your CCPA Data Protection Rights
+-------------------------------------------
+In order to exercise any of Your rights under the CCPA, and if You are a
+California resident, You can email Us at [privacy email - to be added].
+
+The Company will disclose and deliver the required information free of
+charge within 45 days of receiving Your verifiable request. The time
+period to provide the required information may be extended once by an
+additional 45 days when reasonably necessary and with prior notice.
+
+Do Not Sell My Personal Information
+-----------------------------------
+We do not sell personal information, and the Application contains no
+advertising SDKs. Because We do not operate interest-based advertising,
+no opt-out from "sales" or "sharing" as defined under CCPA law is
+necessary. If Our practices ever change, We will update this policy and
+provide the required notice before doing so.
+
+==================================================================
+"DO NOT TRACK" POLICY AS REQUIRED BY CALIFORNIA ONLINE PRIVACY
+PROTECTION ACT (CalOPPA)
+==================================================================
+
+Our Service does not respond to Do Not Track signals.
+
+However, some third party websites do keep track of Your browsing
+activities. If You are visiting such websites, You can set Your
+preferences in Your web browser to inform websites that You do not want
+to be tracked. You can enable or disable DNT by visiting the preferences
+or settings page of Your web browser.
+
+==================================================================
+YOUR CALIFORNIA PRIVACY RIGHTS (California's Shine the Light law)
+==================================================================
+
+Under California Civil Code Section 1798 (California's Shine the Light
+law), California residents with an established business relationship
+with Us can request information once a year about sharing their Personal
+Data with third parties for the third parties' direct marketing
+purposes.
+
+If you'd like to request more information under the California Shine the
+Light law, and if You are a California resident, You can contact Us
+using the contact information provided below.
+
+==================================================================
+CALIFORNIA PRIVACY RIGHTS FOR MINOR USERS (California Business and
+Professions Code Section 22581)
+==================================================================
+
+California Business and Professions Code section 22581 allows California
+residents under the age of 18 who are registered users of online sites,
+services or applications to request and obtain removal of content or
+information they have publicly posted.
+
+To request removal of such data, and if You are a California resident,
+You can contact Us using the contact information provided below, and
+include the email address associated with You.
+
+Be aware that Your request does not guarantee complete or comprehensive
+removal of content or information posted online and that the law may not
+permit or require removal in certain circumstances.
+
+==================================================================
+CHILDREN AND DEPENDENT PROFILES
+==================================================================
+
+There is no minimum age limit. Families use the app for people of every
+age.
+
+A parent, guardian or caregiver creates and manages a dependent's
+profile, and controls who can see its data, under the same consent and
+permission rules described in "Caregiver and Family Sharing" above.
+
+==================================================================
+COOKIES AND TRACKING
+==================================================================
+
+The Application carries no advertising and no third-party tracking SDKs,
+and We do not build advertising profiles from Your data. The technical
+information listed above (such as app version and device type) is used
+only to deliver notifications and keep the app working.
+
+NOTE (to be confirmed): whether this Website uses cookies or analytics
+has not been confirmed yet. Once confirmed, this section will state
+exactly what is used.
+
+==================================================================
+LINKS TO OTHER WEBSITES
+==================================================================
+
+Our Service may contain links to other websites that are not operated by
+Us. If You click on a third party link, You will be directed to that
+third party's site. We strongly advise You to review the Privacy Policy
+of every site You visit.
+
+We have no control over and assume no responsibility for the content,
+privacy policies or practices of any third party sites or services.
+
+==================================================================
+CHANGES TO THIS PRIVACY POLICY
+==================================================================
+
+We may update Our Privacy Policy from time to time. We will notify You
+of any changes by posting the new Privacy Policy on this page and,
+where the change affects how We use or share Health Information, by
+notifying You in the Application and asking for Your consent again
+where required.
+
+We will update the "Last Updated" date at the top of this Privacy Policy
+prior to the change becoming effective. Minor clarifications need no
+notice.
+
+You are advised to review this Privacy Policy periodically for any
+changes. Changes to this Privacy Policy are effective from the Effective
+Date addressed on the header of this document.
+
+==================================================================
+CONTACT US
+==================================================================
+
+If You have any questions about this Privacy Policy, You can contact Us:
+
+- By email: [privacy email - to be added]
+- From inside the app: Settings > Help > Contact support
+
+------------------------------------------------------------------
+This policy describes how the Medicine Reminder App handles Your
+information. It is not medical advice; for questions about Your
+medicines, talk to Your doctor or pharmacist.

@@ -1,0 +1,424 @@
+/* =========================================================
+   TERMS & CONDITIONS - extracted from the approved file
+   Scoped under .terms-page, site navy/green palette + Poppins
+   ========================================================= */
+.terms-page button,
+.terms-page [role="button"],
+.terms-page select,
+.terms-page summary,
+.terms-page input:not([type="checkbox"], [type="radio"]) {
+ min-height: 2rem; 
+}
+.terms-page {
+
+        --bg:#ffffff; --surface:#ffffff; --surface-2:#f8fbfd; --ink:#141414; --body:#40545e; --muted:#7b8b92;
+        --line:#e5e7eb; --accent:#006f56; --accent-strong:#00694a; --accent-soft:#eaf3f3; --accent-ink:#ffffff;
+        --warn-bg:#fef3dc; --warn-line:#e3d9b8; --warn-ink:#8a6a10;
+        --radius:18px; --font-body:'Poppins', sans-serif; --font-head:'Poppins', sans-serif;
+      
+}
+.terms-page * {
+box-sizing:border-box
+}
+.terms-page {
+scroll-behavior:smooth
+}
+@media (prefers-reduced-motion:reduce) {
+.terms-page {
+scroll-behavior:auto
+}
+
+}
+.terms-page {
+margin:0;background:var(--bg);color:var(--body);font-family:var(--font-body);line-height:1.65;-webkit-font-smoothing:antialiased
+}
+.terms-page a {
+color:var(--accent-strong)
+}
+.terms-page a:focus-visible,
+.terms-page summary:focus-visible {
+outline:2px solid var(--accent);outline-offset:2px;border-radius:6px
+}
+.terms-page .wrap {
+max-width:1200px;margin:0 auto;padding:0 24px 72px
+}
+.terms-page .hero {
+  background: linear-gradient(135deg, var(--accent) 0%, #005a44 100%);
+  color: #fff;
+  border-radius: 20px;
+  padding: 44px 48px 40px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.terms-page .hero::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  pointer-events: none;
+}
+
+.terms-page .hero::after {
+  content: '';
+  position: absolute;
+  bottom: -80px;
+  left: -40px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
+}
+
+.terms-page .hero h1 {
+  font-family: var(--font-head);
+  font-size: clamp(2.4rem, 5vw, 3.4rem);
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+  margin: 0 0 14px;
+  font-weight: 800;
+  max-width: 20ch;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.terms-page .hero .lede {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  opacity: 1;
+  max-width: 80ch;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  font-weight: 600;
+  color: #fff;
+  opacity: 0.95;
+}
+
+.terms-page .hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.terms-page .hero-meta span {
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.terms-page .hero-meta span b {
+  font-weight: 800;
+}
+
+.terms-page .hero-date {
+  font-size: 0.85rem;
+  opacity: 0.8;
+  margin-top: 18px;
+  position: relative;
+  z-index: 1;
+}
+
+.terms-page .essentials {
+margin:28px 0 8px
+}
+.terms-page .essentials-head {
+display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:8px;margin-bottom:14px
+}
+.terms-page .essentials-head h2 {
+font-family:var(--font-head);font-size:1.55rem;color:var(--ink);margin:0;line-height:1.1
+}
+.terms-page .essentials-head p {
+margin:0;color:var(--muted);font-size:.95rem
+}
+.terms-page .key-grid {
+display:grid;grid-template-columns:repeat(3,1fr);gap:12px
+}
+.terms-page .key-tile {
+background:var(--surface);border:none;border-radius:16px;padding:18px;box-shadow:0 1px 4px rgba(0,0,0,.06)
+}
+.terms-page .key-tile .k-num {
+font-size:.78rem;font-weight:800;letter-spacing:.08em;color:var(--accent);display:block;margin-bottom:8px
+}
+.terms-page .key-tile strong {
+color:var(--ink);display:block;font-size:1rem;line-height:1.35;margin-bottom:6px
+}
+.terms-page .key-tile p {
+margin:0;font-size:.93rem;line-height:1.55
+}
+.terms-page .chapter-nav {
+position:sticky;top:10px;z-index:20;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px;display:flex;flex-wrap:wrap;gap:4px;margin:22px 0 8px;box-shadow:0 6px 24px rgba(0,0,0,.06)
+}
+.terms-page .chapter-nav a {
+flex:1 1 auto;text-align:center;text-decoration:none;color:var(--body);font-weight:600;font-size:.9rem;padding:9px 10px;border-radius:999px;white-space:normal
+}
+.terms-page .chapter-nav a:hover {
+background:var(--surface-2)
+}
+.terms-page .chapter-nav a.active {
+background:var(--accent);color:#fff
+}
+.terms-page .part {
+margin-top:36px;scroll-margin-top:84px
+}
+.terms-page .part-head {
+display:flex;gap:18px;align-items:flex-start;background:var(--accent-soft);border-radius:20px;padding:20px 22px;margin-bottom:14px
+}
+.terms-page .part-letter {
+font-family:var(--font-head);font-size:2.6rem;line-height:1;font-weight:700;color:var(--accent-strong);width:52px;height:52px;flex:none;display:grid;place-items:center;background:var(--surface);border-radius:50%;border:1px solid var(--line)
+}
+.terms-page .part-head h2 {
+font-family:var(--font-head);font-size:1.5rem;line-height:1.15;color:var(--ink);margin:2px 0 4px
+}
+.terms-page .part-head p {
+margin:0;font-size:.95rem;color:var(--muted);max-width:58ch
+}
+.terms-page .clause {
+background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin-bottom:12px;scroll-margin-top:84px
+}
+.terms-page .clause-head {
+display:flex;gap:14px;align-items:flex-start;margin-bottom:10px
+}
+.terms-page .clause-num {
+flex:none;width:38px;height:38px;border-radius:10px;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-weight:800;font-size:.9rem
+}
+.terms-page .clause h2,
+.terms-page .clause h3.clause-title {
+font-family:var(--font-head);font-size:1.35rem;line-height:1.2;color:var(--ink);margin:4px 0 0
+}
+.terms-page .clause h3 {
+font-size:1rem;color:var(--ink);margin:18px 0 6px
+}
+.terms-page .clause p {
+margin:0 0 12px;max-width:70ch
+}
+.terms-page .clause p:last-child {
+margin-bottom:0
+}
+.terms-page .clause ul {
+margin:0 0 6px;padding-left:20px;max-width:70ch
+}
+.terms-page .clause li {
+margin-bottom:7px
+}
+.terms-page .clause li::marker {
+color:var(--accent)
+}
+.terms-page .clause strong {
+color:var(--ink)
+}
+.terms-page .plain {
+background:var(--accent-soft);border-radius:12px;padding:14px 16px;margin:14px 0;font-size:.95rem
+}
+.terms-page .plain p {
+margin:0
+}
+.terms-page .plain-label {
+display:block;font-size:.72rem;font-weight:800;letter-spacing:.09em;text-transform:uppercase;color:var(--accent-strong);margin-bottom:4px
+}
+.terms-page .todo-note {
+background:var(--warn-bg);border:1px solid var(--warn-line);color:var(--warn-ink);border-radius:12px;padding:14px 16px;margin:14px 0;font-size:.95rem
+}
+.terms-page .todo-note p {
+margin:0 0 8px
+}
+.terms-page .todo-note p:last-child {
+margin-bottom:0
+}
+.terms-page .todo-note strong {
+color:inherit
+}
+.terms-page .plan-cards {
+display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0
+}
+.terms-page .plan-card {
+border:1px solid var(--line);border-radius:16px;padding:18px;background:var(--surface-2)
+}
+.terms-page .plan-card.featured {
+background:var(--accent);color:#fff;border-color:var(--accent)
+}
+.terms-page .plan-card.featured strong,
+.terms-page .plan-card.featured .plan-price {
+color:#fff
+}
+.terms-page .plan-card .plan-name {
+font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:.78rem
+}
+.terms-page .plan-price {
+font-family:var(--font-head);font-size:1.45rem;line-height:1.1;color:var(--ink);margin:8px 0
+}
+.terms-page .plan-card p {
+font-size:.92rem;margin:0
+}
+.terms-page .contact-band {
+background:var(--ink);color:var(--bg);border-radius:20px;padding:24px;margin-top:12px
+}
+.terms-page .contact-band p {
+margin:0 0 10px;max-width:70ch
+}
+.terms-page .contact-band strong {
+color:inherit
+}
+.terms-page .email-slot {
+font-weight:700;background:var(--warn-bg);color:#8a6a10;border:1px dashed var(--warn-line);border-radius:999px;padding:2px 10px;white-space:normal
+}
+.terms-page .page-foot {
+margin-top:22px;text-align:center;color:var(--muted);font-size:.9rem;padding:0 12px
+}
+@media (max-width:760px) {
+.terms-page .key-grid {
+grid-template-columns:1fr 1fr
+}
+.terms-page .plan-cards {
+grid-template-columns:1fr
+}
+.terms-page .chapter-nav {
+border-radius:18px
+}
+.terms-page .chapter-nav a {
+flex:1 1 42%;white-space:normal
+}
+.terms-page .part-head {
+flex-direction:column
+}
+.terms-page .clause {
+padding:18px
+}
+
+}
+@media (max-width:520px) {
+.terms-page .key-grid {
+grid-template-columns:1fr
+}
+.terms-page .hero {
+padding:22px 18px 24px
+}
+.terms-page .hero h1 {
+font-size:2.35rem
+}
+
+}
+@media print {
+.terms-page .chapter-nav {
+display:none
+}
+.terms-page .hero {
+background:#fff;color:#000;border:1px solid #ccc
+}
+.terms-page .clause,
+.terms-page .key-tile {
+break-inside:avoid
+}
+
+}
+
+/* =========================================================
+   REPO INTEGRATION - shared navbar / footer
+   The shared navbar is built for a dark hero. This page has a
+   white background, so it gets the same dark-theme navbar as the
+   FAQs, Privacy Policy and Daily Dose pages.
+   ========================================================= */
+.terms-wrap {
+  margin: 0;
+  background: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.terms-wrap .navbar .brand-name {
+  color: #123C4D;
+}
+
+.terms-wrap .navbar .custom-logo-icon span {
+  background-color: #123C4D;
+}
+
+.terms-wrap .navbar .nav-item {
+  color: #40545E;
+}
+
+.terms-wrap .navbar .nav-item:hover {
+  color: #123C4D;
+}
+
+.terms-wrap .navbar .btn-get-started {
+  background-color: #123C4D;
+  color: #ffffff;
+  font: inherit;
+}
+
+.terms-wrap .navbar::after {
+  background-color: #E5E7EB;
+  left: 0;
+  right: 0;
+}
+
+/* dropdown links match the rest of the site (not the page accent) */
+.terms-wrap .navbar .dropdown-menu a,
+.terms-wrap .floating-navbar .dropdown-menu a {
+  color: #40545E;
+}
+
+.terms-wrap .navbar .dropdown-menu a:hover,
+.terms-wrap .floating-navbar .dropdown-menu a:hover {
+  background-color: #F2F7F9;
+  color: #123C4D;
+}
+
+/* ---------- Sticky chapter bar ----------
+   It has to clear the floating navbar that appears on scroll. */
+.terms-page .chapter-nav {
+  top: 104px;
+}
+
+.terms-page .part,
+.terms-page .clause {
+  scroll-margin-top: 176px;
+}
+
+@media (max-width: 820px) {
+  .terms-page .chapter-nav {
+    top: 132px;
+  }
+
+  .terms-page .part,
+  .terms-page .clause {
+    scroll-margin-top: 204px;
+  }
+}
+
+.terms-page .hero-updated {
+  font-size: 0.85rem;
+  opacity: 0.9;
+  margin-top: 12px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 14px;
+  border-radius: 999px;
+  display: inline-block;
+}
+
+.terms-page .hero-updated b {
+  font-weight: 800;
+}

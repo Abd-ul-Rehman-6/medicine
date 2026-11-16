@@ -1,0 +1,254 @@
+.trust-section {
+  width: 100%;
+  background-color: #ececec;
+  padding: 4.5rem 2rem 5rem;
+  box-sizing: border-box;
+  color: #1C2B33;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease, transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.trust-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.trust-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.trust-title {
+  font-size: clamp(1.3rem, 2.1vw, 1.7rem);
+  font-weight: 700;
+  color: #1C2B33;
+  margin: 0 0 2.5rem;
+  letter-spacing: -0.01em;
+}
+
+/* ---------- Logo Cards ---------- */
+.logos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.logo-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 1.6rem 1.2rem;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.logo-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.logo-serif {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: left;
+}
+
+.logo-serif.dark { color: #1a1a1a; }
+.logo-serif.navy { color: #08718A; }
+
+.logo-baptist,
+.logo-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.baptist-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background-color: #00694A;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.logo-sylvester {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.uj-mark {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1;
+  display: flex;
+}
+
+.uj-u { color: #f58220; }
+.uj-j { color: #00843d; margin-left: -4px; }
+
+.sylv-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+  text-align: left;
+}
+
+.sylv-text strong {
+  font-family: 'Poppins', sans-serif;
+  color: #006633;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+}
+
+.sylv-text small {
+  font-size: 0.42rem;
+  letter-spacing: 0.04em;
+  color: #006633;
+  font-weight: 600;
+}
+
+.sylv-text small.miami {
+  margin-top: 3px;
+}
+
+.logo-ironshore {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.ironshore-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.ironshore-text strong {
+  font-size: 1rem;
+  letter-spacing: 0.18em;
+  color: #40545E;
+  font-weight: 600;
+}
+
+.ironshore-text small {
+  font-size: 0.5rem;
+  letter-spacing: 0.22em;
+  color: #7B8B92;
+}
+
+/* ---------- Testimonial Cards ---------- */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 3.2rem;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 1.4rem 1.4rem 1.6rem;
+  text-align: left;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.testimonial-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.quote-mark {
+  width: 26px;
+  height: 20px;
+  display: block;
+  margin-bottom: 0.9rem;
+}
+
+.testimonial-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #40545E;
+  margin: 0;
+  font-weight: 400;
+}
+
+.testimonial-text strong {
+  color: #0B5568;
+  font-weight: 700;
+}
+
+/* ---------- Reviews Footer ---------- */
+.trust-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.rating-title {
+  font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  font-weight: 700;
+  color: #1C2B33;
+  margin: 0;
+}
+
+.rating-badge {
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+.app-heart-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider-line {
+  width: 1px;
+  height: 36px;
+  background-color: #c4c4c4;
+}
+
+.star-rating {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 1024px) {
+  .logos-grid,
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .trust-section {
+    padding: 3rem 1.2rem 3.5rem;
+  }
+
+  .logos-grid,
+  .testimonials-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
