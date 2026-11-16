@@ -205,7 +205,7 @@ export default function Hero() {
                 </svg>
                 <span>
                   <small>JOIN THE BETA ON</small>
-                  <b>TestFlight</b>
+                  <b>App Store</b>
                 </span>
               </button>
             </div>
