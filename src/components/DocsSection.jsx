@@ -92,10 +92,6 @@ export default function DocsSection() {
               </div>
             </div>
           </div>
-
-         
-
-        
         </div>
 
         <div className="docs-text">

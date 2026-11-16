@@ -3,10 +3,6 @@
   padding: 5rem 2rem 5.5rem;
   box-sizing: border-box;
   background-color: #123C4D;
-  background-image:
-    radial-gradient(ellipse 60% 80% at 12% 18%, rgba(62, 109, 247, 0.3), transparent 62%),
-    radial-gradient(ellipse 55% 70% at 88% 82%, rgba(90, 150, 255, 0.2), transparent 62%),
-    linear-gradient(180deg, #0B5568 0%, #123C4D 100%);
   overflow: hidden;
 }
 

@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import {
   HERO_IMG,
   SENIOR_IMG,
+  DEMO_BG,
   HEADINGS,
   HERO,
   HERO_CTA,
@@ -25,6 +26,7 @@ import {
   FOOTER_DISC,
   FOOTER_PHOTO,
 } from '../data/caregiversData';
+import DD_PHOTO from '../assets/dd/dd-05.jpg';
 import '../styles/CaregiversPage.css';
 
 const ENTITIES = {
@@ -201,16 +203,6 @@ export default function CaregiversPage() {
 
             <div className="hero-photo">
               <img src={HERO_IMG} alt="A mother and daughter reviewing medication at home" />
-              <div className="alert-chip" role="note">
-                <span
-                  className="bell"
-                  dangerouslySetInnerHTML={{ __html: ALERT_CHIP.icon }}
-                />
-                <span>
-                  <strong>{dec(ALERT_CHIP.title)}</strong>
-                  <span>{dec(ALERT_CHIP.text)}</span>
-                </span>
-              </div>
             </div>
           </div>
         </div>
@@ -246,7 +238,14 @@ export default function CaregiversPage() {
               <p>{dec(HEADINGS['demo-h'].sub)}</p>
             </div>
 
-            <div className="demo-shell">
+            <div
+              className="demo-shell demo-shell-photo"
+              style={{
+                backgroundImage: `linear-gradient(rgba(243, 248, 247, 0.82), rgba(243, 248, 247, 0.82)), url(${DEMO_BG})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+              }}
+            >
               <div>
                 <div className="cg-phone" aria-label="Demo of the reminder on Mum's phone">
                   <div className="who">

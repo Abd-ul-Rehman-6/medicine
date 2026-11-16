@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import DD_PHOTO from '../assets/dd/dd-01.jpg';
 import '../styles/TestimonialsSection.css';
 
 const REVIEWS = [
@@ -68,7 +69,14 @@ export default function TestimonialsSection() {
   };
 
   return (
-    <section className="testimonials-section">
+    <section
+      className="testimonials-section"
+      style={{
+        backgroundImage: `linear-gradient(rgba(11, 43, 54, 0.88), rgba(18, 60, 77, 0.93)), url(${DD_PHOTO})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
       <div className="testimonials-inner">
         <h2 className="testimonials-title">What our app users are saying</h2>
 

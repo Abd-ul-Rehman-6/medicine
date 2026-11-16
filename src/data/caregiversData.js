@@ -1,9 +1,11 @@
 /* For Caregivers - content extracted from the approved design file */
 import cgHero from '../assets/cg/cg-01.jpg';
+import ddPhoto from '../assets/dd/dd-05.jpg';
 import cgSenior from '../assets/cg/cg-02.webp';
 
 export const HERO_IMG = cgHero;
 export const SENIOR_IMG = cgSenior;
+export const DEMO_BG = ddPhoto;
 export const HEADINGS = {
   "worries-h": {
     "title": "The worries this takes off your list",
