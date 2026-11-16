@@ -226,7 +226,7 @@
 }
 .cg-page .demo-shell {
 
-        background:var(--surface); border:1px solid var(--line); border-radius:18px;
+        background:var(--green-soft); border:1px solid var(--line); border-radius:18px;
         box-shadow:var(--shadow); padding:26px; display:grid; grid-template-columns:1fr 1fr; gap:30px;
       
 }
@@ -527,7 +527,7 @@
  background:var(--green); color:var(--green-ink); 
 }
 .cg-page .mini-phone {
- background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:18px; max-width:360px; box-shadow:var(--shadow); 
+ background:var(--surface); border:1px solid var(--line); border-radius:16px; padding:18px; max-width:none; box-shadow:var(--shadow); 
 }
 .cg-page .mini-phone .mp-time {
  color:var(--muted); font-weight:700; font-size:.85em; 
