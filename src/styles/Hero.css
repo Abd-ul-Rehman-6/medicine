@@ -608,6 +608,7 @@ body {
   font-family: 'Poppins', sans-serif;
   text-align: left;
   transition: background-color 0.2s ease, transform 0.2s ease;
+  margin-top: 1.6rem;
 }
 
 .store-btn:hover {
