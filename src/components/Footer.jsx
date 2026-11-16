@@ -134,17 +134,27 @@ export default function Footer() {
       </div>
 
       <div className="footer-social" style={{ maxWidth: '1440px', margin: '0 auto', padding: '0 3rem', display: 'flex', justifyContent: 'flex-end', marginTop: '1.5rem', gap: '1rem' }}>
-        <a href="#google" aria-label="Google" style={{ color: "#4285F4" }}>
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09zM12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23zM5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62zM12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" /></svg>
+        <a href="#google" aria-label="Google">
+          <svg viewBox="0 0 48 48" width="24" height="24" aria-hidden="true">
+            <path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/>
+            <path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"/>
+            <path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 17.46 0 20.62 0 24c0 3.38.92 6.54 2.56 9.35l7.97-6.18z"/>
+            <path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/>
+          </svg>
         </a>
-        <a href="#x" aria-label="X" style={{ color: "#ffffff" }}>
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-6.9l-5.4-7-6.2 7H1.7l8.1-9.3L1 2h7.1l4.9 6.4L18.9 2z" /></svg>
+        <a href="#x" aria-label="X">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="#ffffff" aria-hidden="true"><path d="M18.244 3H21l-6.98 7.98L22 21h-5.4l-4.2-5.5L7.5 21H4.7l7.5-8.6L3 3h5.5l3.8 5L18.24 3z"/></svg>
         </a>
-        <a href="#facebook" aria-label="Facebook" style={{ color: "#1877F2" }}>
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.7 4.53-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.5c-1.49 0-1.95.93-1.95 1.89v2.26h3.32l-.53 3.49h-2.79V24C19.61 23.09 24 18.1 24 12.07z" /></svg>
+        <a href="#facebook" aria-label="Facebook">
+          <svg viewBox="0 0 48 48" width="24" height="24" aria-hidden="true">
+            <path fill="#1877F2" d="M48 24C48 10.75 37.25 0 24 0S0 10.75 0 24c0 12.02 8.83 21.98 20.36 23.8V30.9h-6.13V24h6.13v-5.24c0-6.05 3.6-9.4 9.12-9.4 2.64 0 5.4.47 5.4.47v5.93h-3.04c-2.98 0-3.92 1.85-3.92 3.76V24h6.68l-1.08 6.9h-5.6v16.9C39.17 45.98 48 36.02 48 24z"/>
+          </svg>
         </a>
-        <a href="#youtube" aria-label="YouTube" style={{ color: "#FF0000" }}>
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
+        <a href="#youtube" aria-label="YouTube">
+          <svg viewBox="0 0 48 48" width="24" height="24" aria-hidden="true">
+            <path fill="#FF0000" d="M48 33.4V17c0-2.9-2.4-5.3-5.3-5.3H5.3C2.4 11.7 0 14.1 0 17v16.4C0 36.3 2.4 38.7 5.3 38.7h37.4C45.6 38.7 48 36.3 48 33.4z"/>
+            <path fill="#FFFFFF" d="M19.5 30.5V17.5l11.4 6.5z"/>
+          </svg>
         </a>
       </div>
 
