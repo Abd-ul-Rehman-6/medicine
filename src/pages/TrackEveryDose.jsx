@@ -395,7 +395,7 @@ export default function TrackEveryDose() {
                 </div>
 
                 <div className="ted-medlist">
-                  {visible.map((m) => (
+                  {visible.slice(0, 3).map((m) => (
                     <div
                       key={m.id}
                       className={`ted-medcard ${openId === m.id ? 'open' : ''}`}
@@ -548,7 +548,7 @@ export default function TrackEveryDose() {
                   </div>
                   <span className="ted-details-match">
                     <Check size={10} strokeWidth={3.2} />
-                    Matches clinical index [Glucophage, Fortamet]
+                    Matches clinical index
                   </span>
                 </div>
 
@@ -637,17 +637,6 @@ export default function TrackEveryDose() {
                   ))}
                 </div>
 
-                <div className="ted-details-special">
-                  <div className="ted-details-colorhead">
-                    <span className="ted-details-flabel">
-                      Special Instructions
-                    </span>
-                    <span className="ted-details-optional">Optional</span>
-                  </div>
-                  <div className="ted-details-textarea">
-                    e.g. Take with food after breakfast, avoid grapefruit…
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -1094,7 +1083,7 @@ export default function TrackEveryDose() {
                   <strong>Green Cross Pharmacy</strong>
                   <span className="ted-pharm-branch">
                     <span className="ted-pharm-dot-open" />
-                    Main branch · Open until 9:00 PM
+                    Open until 9:00 PM
                   </span>
                   <span className="ted-pharm-open">
                     <span className="ted-pharm-dot-open" />
@@ -1123,7 +1112,7 @@ export default function TrackEveryDose() {
                     </span>
                     <span className="ted-pharm-row-text">
                       <strong>124 Maple Street, Springfield</strong>
-                      <small>0.8 miles away · Springfield Medical Plaza</small>
+                      <small>0.8 miles away</small>
                     </span>
                   </div>
                   <div className="ted-pharm-actions">
@@ -1172,30 +1161,7 @@ export default function TrackEveryDose() {
                   </div>
                 </div>
 
-                <div className="ted-pharm-card">
-                  <div className="ted-pharm-contacthead">
-                    <span className="ted-pharm-sectionlabel">Opening Hours</span>
-                    <span className="ted-pharm-link">Standard Hours</span>
-                  </div>
-                  <div className="ted-pharm-hoursrow today">
-                    <span>Mon–Fri <em>Today</em></span>
-                    <strong>8:00 AM – 9:00 PM</strong>
-                  </div>
-                  <div className="ted-pharm-hoursrow">
-                    <span>Saturday</span>
-                    <strong>9:00 AM – 6:00 PM</strong>
-                  </div>
-                  <div className="ted-pharm-hoursrow">
-                    <span>Sunday</span>
-                    <strong className="ted-pharm-closed">● Closed</strong>
-                  </div>
                 </div>
-
-                <div className="ted-pharm-edit">
-                  <Pencil size={12} strokeWidth={2.2} />
-                  Edit Pharmacy Details
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -1239,7 +1205,7 @@ export default function TrackEveryDose() {
                     />
                     <span className="ted-inv-option-text">
                       <strong>Invite an Adult</strong>
-                      <small>They manage their own login &amp; data</small>
+                      <small>They manage their data</small>
                     </span>
                     <User size={17} strokeWidth={1.8} className="ted-inv-option-ico" />
                   </button>
@@ -1257,7 +1223,7 @@ export default function TrackEveryDose() {
                     />
                     <span className="ted-inv-option-text">
                       <strong>Create Dependent Profile</strong>
-                      <small>I manage everything for them (e.g. a child)</small>
+                      <small>I manage everything for them</small>
                     </span>
                     <Users size={17} strokeWidth={1.8} className="ted-inv-option-ico" />
                   </button>
@@ -1277,7 +1243,7 @@ export default function TrackEveryDose() {
                   </div>
                   <span className="ted-inv-fieldhint">
                     <Check size={10} strokeWidth={3} />
-                    They'll receive a secure invite link
+                    They get a secure invite link
                   </span>
                 </div>
 

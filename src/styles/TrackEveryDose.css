@@ -233,6 +233,7 @@
   border-radius: 38px;
   padding: 9px;
   box-shadow: 0 40px 90px rgba(12, 26, 61, 0.28);
+  zoom: 0.78;
 }
 
 .ted-phone-notch {
@@ -771,7 +772,7 @@
 /* ---------- Details screen ---------- */
 .ted-details-screen {
   padding-top: 2.6rem;
-  min-height: 620px;
+  min-height: 480px;
   gap: 0.55rem;
   background: #f4fbf7;
 }
@@ -1126,7 +1127,7 @@
 
 .ted-cal-screen {
   padding: 1.4rem 0.75rem 1rem;
-  min-height: 640px;
+  min-height: 480px;
   gap: 0.6rem;
   background: #F4F9FC;
   border-radius: 30px;
@@ -1514,7 +1515,7 @@
 
 .ted-adh-screen {
   padding: 1.4rem 0.6rem 0.9rem;
-  min-height: 640px;
+  min-height: 480px;
   gap: 0.55rem;
   background: #F4F9FC;
   box-sizing: border-box;
@@ -1924,7 +1925,7 @@
 .ted-pharm-screen {
   box-sizing: border-box;
   padding: 1.4rem 0.6rem 1.1rem;
-  min-height: 640px;
+  min-height: 480px;
   gap: 0.55rem;
   background: #F4F9FC;
 }
@@ -2646,4 +2647,22 @@
   .ted-det-title {
     font-size: clamp(1.4rem, 5vw, 1.8rem);
   }
+}
+
+
+/* ---------- Per-section: phone height matches the text column ---------- */
+.ted-det .ted-phone { zoom: 0.7; }
+.ted-pharm .ted-phone { zoom: 0.72; }
+.ted-cal .ted-phone { zoom: 0.88; }
+.ted-adh .ted-phone { zoom: 0.78; }
+
+
+/* ---------- Stacked view: shrink phone UIs ---------- */
+@media (max-width: 900px) {
+  .ted-add .ted-phone { zoom: 0.38; }
+  .ted-det .ted-phone { zoom: 0.42; }
+  .ted-pharm .ted-phone { zoom: 0.44; }
+  .ted-cal .ted-phone { zoom: 0.52; }
+  .ted-adh .ted-phone { zoom: 0.48; }
+  .ted-inv .ted-phone { zoom: 0.46; }
 }

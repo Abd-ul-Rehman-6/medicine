@@ -487,13 +487,12 @@ export default function CaregiversPage() {
         {/* ============ SENIOR MODE ============ */}
         <section aria-labelledby="senior-h">
           <div className="wrap senior-grid">
-            <div>
-              <img
-                src={SENIOR_IMG}
-                alt="A senior woman comfortably taking her medicine at home"
-                loading="lazy"
-              />
-            </div>
+            <img
+              src={SENIOR_IMG}
+              alt="A senior woman comfortably taking her medicine at home"
+              loading="lazy"
+              className="senior-img"
+            />
             <div>
               <div className="sec-head" style={{ marginBottom: '10px' }}>
                 <h2 id="senior-h">{dec(HEADINGS['senior-h'].title)}</h2>

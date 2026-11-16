@@ -228,3 +228,138 @@
     height: 48px;
   }
 }
+
+
+/* ---------- Attractive redesign ---------- */
+.docs-phone-card {
+  position: relative;
+  background: radial-gradient(120% 120% at 20% 0%, #0E5F6E 0%, #0B4A57 45%, #123C4D 100%);
+  overflow: visible;
+}
+
+.docs-card-glows {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.docs-glow {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.docs-glow.g1 {
+  width: 280px;
+  height: 280px;
+  background: #20C6A1;
+  top: -80px;
+  right: -60px;
+}
+
+.docs-glow.g2 {
+  width: 220px;
+  height: 220px;
+  background: #0B5568;
+  bottom: -70px;
+  left: -50px;
+}
+
+.docs-phone-card > *:not(.docs-card-glows):not(.hex-badge) { position: relative; z-index: 1; }
+
+.docs-card-glows { z-index: 0; }
+
+.docs-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #006F56;
+  background: #EAF3F3;
+  border: 1px solid #CFE3E3;
+  padding: 6px 12px;
+  border-radius: 999px;
+  margin-bottom: 1.2rem;
+}
+
+.docs-accent {
+  color: #006F56;
+}
+
+.docs-points {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.docs-points li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1rem;
+  color: #1C2B33;
+  font-weight: 500;
+}
+
+.docs-tick {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #22C55E 0%, #006F56 100%);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(34, 197, 94, .35);
+}
+
+.docs-tick svg {
+  stroke: #ffffff;
+}
+
+.hex-badge {
+  background: linear-gradient(160deg, #FFF4E6 0%, #FFE8CC 100%);
+  box-shadow: 0 8px 24px rgba(255, 200, 150, .35);
+}
+
+@media (max-width: 560px) {
+  .docs-tick {
+    width: 20px;
+    height: 20px;
+  }
+  .docs-kicker {
+    font-size: 0.66rem;
+    padding: 5px 10px;
+  }
+}
+
+
+/* ---------- Accent text with shimmer animation ---------- */
+.docs-accent {
+  background: linear-gradient(100deg, #00694A 0%, #20C6A1 45%, #00694A 90%);
+  background-size: 220% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: docsShimmer 3.5s linear infinite;
+  white-space: pre-wrap;
+}
+
+@keyframes docsShimmer {
+  0% {
+    background-position: 220% 0;
+  }
+  100% {
+    background-position: -20% 0;
+  }
+}

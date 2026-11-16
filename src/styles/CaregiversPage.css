@@ -503,16 +503,19 @@
  color:var(--green); 
 }
 .cg-page .senior-grid {
- display:grid; grid-template-columns:.95fr 1.05fr; gap:38px; align-items:center; 
+ display:grid; grid-template-columns:.95fr 1.05fr; gap:38px; align-items:stretch; 
 }
 @media (max-width:860px) {
 .cg-page .senior-grid {
  grid-template-columns: minmax(0, 1fr); 
 }
-
+.cg-page .senior-grid img {
+ height: 320px !important;
+ min-height: 0 !important;
+}
 }
 .cg-page .senior-grid img {
- border-radius:18px; box-shadow:var(--shadow); object-fit:cover; width:100%; height:clamp(280px,32vw,400px); 
+ border-radius:18px; box-shadow:var(--shadow); object-fit:cover; width:100%; height:100%; min-height:320px; display:block;
 }
 .cg-page .mode-toggle {
  display:inline-flex; border:1px solid var(--line); border-radius:999px; padding:4px; background:var(--surface); gap:4px; margin:6px 0 16px; 
@@ -783,6 +786,18 @@
   background-color: #E5E7EB;
   left: 0;
   right: 0;
+}
+
+/* Dropdown links must stay neutral, not green */
+.cg-page .navbar .dropdown-menu a,
+.cg-page .floating-navbar .dropdown-menu a {
+  color: #40545E;
+}
+
+.cg-page .navbar .dropdown-menu a:hover,
+.cg-page .floating-navbar .dropdown-menu a:hover {
+  background-color: #F2F7F9;
+  color: #123C4D;
 }
 /* =========================================================
    PROFESSIONAL POLISH
@@ -1200,4 +1215,42 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+
+/* ---------- Permissions: colourful check / cross badges ---------- */
+.cg-page .perm-list li .ic {
+  flex: none;
+  margin-top: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  transition: transform .2s ease, box-shadow .2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .12);
+}
+
+.cg-page .perm-list li .ic svg {
+  stroke: #ffffff;
+}
+
+/* Allowed = green badge */
+.cg-page .perm-list li:not(.no) .ic {
+  background: linear-gradient(135deg, #22C55E 0%, #006F56 100%);
+  box-shadow: 0 2px 8px rgba(34, 197, 94, .4);
+}
+
+/* Denied = soft red badge */
+.cg-page .perm-list li.no .ic {
+  background: linear-gradient(135deg, #F87171 0%, #E74C3C 100%);
+  box-shadow: 0 2px 8px rgba(231, 76, 60, .35);
+}
+
+.cg-page .perm-list li:not(.no) .ic svg {
+  stroke: #ffffff;
+}
+
+.cg-page .perm-list li:hover .ic {
+  transform: scale(1.12);
 }

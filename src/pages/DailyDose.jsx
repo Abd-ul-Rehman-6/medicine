@@ -308,9 +308,7 @@ export default function DailyDose() {
                 The Daily <em>Dose</em>
               </h1>
               <p className="sub">
-                Most medication blogs stop at telling you. Ours end with
-                something you can <b>do</b> - a checker, a schedule, a countdown
-                - in about a minute, in plain language.
+                Plain-language medication guides that get you moving.
               </p>
 
               <form
@@ -364,12 +362,10 @@ export default function DailyDose() {
         <section id="tools" aria-labelledby="tools-h">
           <div className="wrap">
             <div className="sec-head">
-              <span className="tag">Tools, not just articles</span>
+              
               <h2 id="tools-h">Get an answer, not a reading list</h2>
               <p className="lede">
-                Three small tools for the three moments people actually open a
-                medication blog: a dose was missed, the timing is confusing, or
-                the bottle is nearly empty.
+                Three tools for the three moments you check this blog.
               </p>
             </div>
 
@@ -595,12 +591,10 @@ export default function DailyDose() {
         <section id="guides" aria-labelledby="guides-h">
           <div className="wrap">
             <div className="sec-head">
-              <span className="tag">Start here</span>
+              
               <h2 id="guides-h">Six guides that cover almost everything</h2>
               <p className="lede">
-                Not 600 articles. Six cornerstone guides, each written around
-                one real moment in a medication routine - and each ending in the
-                tool or feature that solves it.
+                Six cornerstone guides, each ending in the tool that solves it.
               </p>
             </div>
 
@@ -670,7 +664,7 @@ export default function DailyDose() {
         <section id="journey" aria-labelledby="journey-h">
           <div className="wrap">
             <div className="sec-head">
-              <span className="tag">By where you are, not what you take</span>
+             
               <h2 id="journey-h">Your routine has stages. So does this blog.</h2>
               <p className="lede">
                 Pick the stage you are in - the guides reshuffle to match.
@@ -702,7 +696,7 @@ export default function DailyDose() {
         <section id="caregiver" aria-labelledby="caregiver-h">
           <div className="wrap">
             <div className="sec-head">
-              <span className="tag">Monthly series</span>
+              
               <h2 id="caregiver-h">The Caregiver Series</h2>
             </div>
 
@@ -737,7 +731,7 @@ export default function DailyDose() {
         <section id="latest" aria-labelledby="latest-h">
           <div className="wrap">
             <div className="sec-head">
-              <span className="tag">60-second guides</span>
+              
               <h2 id="latest-h">Latest from The Daily Dose</h2>
               <p className="lede">
                 One question, one answer, one thing to do. New guides land every

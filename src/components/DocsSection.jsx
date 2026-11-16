@@ -30,6 +30,12 @@ export default function DocsSection() {
       <div className="docs-container">
         <div className="docs-visual">
           <div className="docs-phone-card">
+            <div className="docs-card-glows" aria-hidden="true">
+              <span className="docs-glow g1" />
+              <span className="docs-glow g2" />
+            </div>
+           
+           
             <div className="docs-phone">
               <div className="docs-status">
                 <span className="status-time">9:41</span>
@@ -93,17 +99,18 @@ export default function DocsSection() {
         </div>
 
         <div className="docs-text">
-          <h2>Comprehensive documentation and personal notes</h2>
+          
+          <h2>Every dose, logged.<br /><span className="docs-accent">Every note, kept.</span></h2>
           <p>
             MyTherapy automatically documents every intake, whether taken or
-            skipped. You can even add notes to each instance, so you never have
-            to face uncertainty regarding past intakes.
+            skipped. Add a personal note to any dose, so you never have to
+            face uncertainty about what happened before.
           </p>
-          <p>
-            In combination with your health diary, which MyTherapy keeps
-            up-to-date, you will always carry your personal treatment overview
-            with you and have access to it anytime, anywhere.
-          </p>
+          <ul className="docs-points">
+            <li><span className="docs-tick"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 6.5L5 9.5L10 3" /></svg></span>Every intake, automatically logged</li>
+            <li><span className="docs-tick"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 6.5L5 9.5L10 3" /></svg></span>Notes attached to every dose</li>
+            <li><span className="docs-tick"><svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M2 6.5L5 9.5L10 3" /></svg></span>Personal health diary, always up to date</li>
+          </ul>
         </div>
       </div>
     </section>

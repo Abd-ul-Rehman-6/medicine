@@ -437,19 +437,19 @@ export default function FaqsPage() {
           <div className="support">
             <div className="support-info">
               <h2 id="supportH">Still stuck?</h2>
-              <p>Two ways to reach a human.</p>
+              <p>Two ways to get help.</p>
               <ol>
                 <li>In the app: <b>Help / Support</b> → <b>Contact support</b></li>
-                <li>Say expected vs happened — support sees your app version and settings.</li>
+                <li>Say what you expected vs what happened — we see your app version and settings.</li>
               </ol>
               <p style={{ marginTop: '14px' }}>
-                Or write it here — the button prepares a block to paste into the app or email.
+                Or write it here — the button prepares a block for the app.
               </p>
 
               <div className="assistant-box">
                 <b>Want an answer now?</b>
                 <p style={{ margin: '4px 0 8px' }}>
-                  AI assistant, day or night: <b>Help / Support → Ask the assistant</b>. Uses these FAQs, hands you to a human if needed.
+                  <b>Help / Support → Ask the assistant</b>. AI answers, day or night — falls back to a human if needed.
                 </p>
                 <a onClick={focusSearch}>Search these answers →</a>
               </div>
