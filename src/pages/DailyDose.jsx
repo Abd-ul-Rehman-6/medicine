@@ -332,15 +332,9 @@ export default function DailyDose() {
               </form>
 
               <div className="hero-meta">
-                <span>
-                  <b>6</b> cornerstone guides
-                </span>
-                <span>
-                  <b>3</b> working tools
-                </span>
-                <span>
-                  <b>Weekly</b> new guides &amp; checklists
-                </span>
+                <span><b>6</b> guides</span>
+                <span><b>3</b> tools</span>
+                <span><b>Weekly</b> new guides</span>
               </div>
             </div>
 

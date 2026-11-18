@@ -855,12 +855,12 @@
 }
 
 
-/* ---------- Mobile: hero sub on one line ---------- */
+/* ---------- Mobile: hero sub compact ---------- */
 @media (max-width: 820px) {
   .dd-page .hero p.sub {
     font-size: 0.95rem;
     max-width: none;
-    white-space: nowrap;
+    line-height: 1.4;
   }
 }
 
@@ -868,6 +868,7 @@
   .dd-page .hero p.sub {
     font-size: 0.8rem;
     color: var(--ink-2);
+    line-height: 1.45;
   }
 }
 
@@ -885,5 +886,16 @@
   .dd-page .lede {
     font-size: 0.82rem;
     color: var(--ink-2);
+  }
+}
+
+
+/* ---------- Mobile: hero-meta on one line ---------- */
+@media (max-width: 820px) {
+  .dd-page .hero-meta {
+    flex-wrap: nowrap;
+    gap: 8px 12px;
+    font-size: 0.72rem;
+    margin-top: 12px;
   }
 }
