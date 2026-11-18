@@ -272,6 +272,13 @@ body {
   transform: translateY(0);
 }
 
+@media (max-width: 820px) {
+  .floating-navbar {
+    width: calc(100% - 2rem);
+  }
+}
+
+
 .floating-navbar .nav-right {
   display: flex;
   align-items: center;
@@ -313,6 +320,7 @@ body {
   font-size: 1.75rem;
   font-weight: 500;
   letter-spacing: -0.02em;
+  line-height: 1;
 }
 
 .brand-name.dark-text {
@@ -949,6 +957,17 @@ body {
 
 .hamburger-btn.hamburger-dark {
   color: #123C4D;
+}
+
+/* Keep the hamburger compact regardless of page-specific button min-height rules */
+.navbar .hamburger-btn,
+.floating-navbar .hamburger-btn {
+  line-height: 1;
+  min-height: 0;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 820px) {

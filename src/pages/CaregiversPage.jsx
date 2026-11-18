@@ -9,7 +9,6 @@ import {
   HEADINGS,
   HERO,
   HERO_CTA,
-  ALERT_CHIP,
   WORRIES,
   DEMO,
   DEMO_ALERT,
@@ -26,7 +25,6 @@ import {
   FOOTER_DISC,
   FOOTER_PHOTO,
 } from '../data/caregiversData';
-import DD_PHOTO from '../assets/dd/dd-05.jpg';
 import '../styles/CaregiversPage.css';
 
 const ENTITIES = {
