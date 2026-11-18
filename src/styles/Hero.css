@@ -965,7 +965,6 @@ body {
   line-height: 1;
   min-height: 0;
   padding: 6px;
-  display: flex;
   align-items: center;
   justify-content: center;
 }
