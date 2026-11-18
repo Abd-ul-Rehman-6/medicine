@@ -1206,3 +1206,11 @@ body {
     font-size: 1.3rem;
   }
 }
+
+
+/* ---------- Mobile: shift navbar logo to the left ---------- */
+@media (max-width: 820px) {
+  .navbar .logo {
+    margin-left: -1rem;
+  }
+}
